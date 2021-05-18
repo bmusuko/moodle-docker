@@ -14,7 +14,7 @@ $CFG->prefix    = 'm_';
 $CFG->dboptions = ['dbcollation' => getenv('MOODLE_DOCKER_DBCOLLATION')];
 $CFG->bridgeServiceURL = 'https://bridge-service.bmusuko.tech';
 
-$host = '139.59.107.214';
+$host = 'moodle-gitlab.xyz';
 if (!empty(getenv('MOODLE_DOCKER_WEB_HOST'))) {
     $host = getenv('MOODLE_DOCKER_WEB_HOST');
 }
